@@ -1,8 +1,18 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/wifi/wifi",
+    "pages/location/location",
+    "pages/health/health",
+    "pages/shoping/shoping",
+    "pages/contact/contact",
+    "pages/important/important"
   ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",

@@ -1,16 +1,13 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="title">Smart Phone Operate</view>
+  <view class="title">使用教程</view>
   <view class="userinfo">
     <view class="my_content">
-        <view class="content1"><image class="callout-photo" mode="widthFix" src="../../icon/WIFI.png" /></view>
-        <view class="content2"><image class="callout-photo" mode="widthFix" src="../../icon/HealthCode.png" /></view>
-        <view class="content3"><image class="callout-photo" mode="widthFix" src="../../icon/Shop.png" /></view>
-        <!-- <view class="content1_n"><text>WIFI</text></view>
-        <view class="content2_n"><text>WIFI</text></view> -->
-        <view class="content4"><image class="callout-photo" mode="widthFix" src="../../icon/alipay.png" /></view>
-        <view class="content5"><image class="callout-photo" mode="widthFix" src="../../icon/wechat.png" /></view>
-        <view class="content6"><image class="callout-photo" mode="widthFix" src="../../icon/video.png" /></view>
+        <view class="content" bindtap="wifi"><text>WIFI</text></view>
+        <view class="content" bindtap="health" ><text>健康码</text></view>
+        <view class="content" bindtap="shop"><text>网上购物</text></view>
+        <view class="content" bindtap="location"><text>我在哪儿</text></view>
+        <view class="content" bindtap="contact"><text>通讯录</text></view>
     </view>
   </view>
 </view>

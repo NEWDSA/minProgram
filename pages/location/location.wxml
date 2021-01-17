@@ -1,0 +1,9 @@
+<view class="l_container">
+    <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" 
+    scale="14" markers="{{markers}}"
+    bindmarkertap="markertap"
+    bindregionchange="regionchange"
+    show-location="show">
+    </map>
+    <button class="nav_btn" type="primary" bindtap="navigate" >导航</button>
+  </view>
