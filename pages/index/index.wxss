@@ -6,7 +6,6 @@
   flex-wrap: wrap;
   width: 750rpx;
   height: 800rpx;
-  /* border: 1px solid red; */
 }
 .my_content{
   display:flex;
@@ -14,9 +13,6 @@
   flex-wrap: wrap;
   width: 750rpx;
   height: 100%;
-  background: url('http://m.qpic.cn/psc?/V51qIpQI39eeid2NKkmm1lzUVC3Dzpiw/bqQfVz5yrrGYSXMvKr.cqUQK76V9iXpLKT8BNZfX6ORv.7asKWO4v0.Zp31*gQeWx.yuud.OX0Mj9tvaBC9M*GjrGuNW56D4TtuDK01afqg!/b&bo=dwF3AQAAAAADByI!&rf=viewer_4') no-repeat;
-  background-size: 100% 100%;
-  /* background-size */
 }
 
 .title{
@@ -30,13 +26,18 @@
   display: flex;
   justify-content:center;
   align-items: center;
+  flex-wrap: wrap;
   width: 100rpx;
   height: 100rpx;
   /*750-400/2/4=43.75*/
   padding: 0 43.75rpx;
-  margin: 0 0 40rpx;
-  color: #FF3300;
+  /* 上 右、左 、下 */
+  margin: 50rpx 0 40rpx;
+  font-size: 24rpx;
+  color: #5c3228;
+  /* border: 1rpx solid pink; */
 }
+
 
 
 

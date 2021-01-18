@@ -1,1 +1,3 @@
-<web-view src="https://www.bilibili.com/video/BV1nE41117BQ?p=43"></web-view>
+<!-- <web-view src="https://xbeibeix.com/api/bilibili/biliplayer/?url=BV1nE41117BQ%3Fp%3D13"></web-view> -->
+<!-- 视频解析 https://xbeibeix.com/api/bilibili/ -->
+<video src="https://xbeibeix.com/api/bilibili/biliplayer/?url=BV1nE41117BQ%3Fp%3D13"></video>

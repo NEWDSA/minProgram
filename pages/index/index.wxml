@@ -3,11 +3,15 @@
   <view class="userinfo">
     <view class="title">使用教程</view>
     <view class="my_content">
-        <view class="content" bindtap="wifi"><image src="../../icon/WIFI.png" mode="widthFix"/></view>
-        <view class="content" bindtap="health" ><image src="../../icon/HealthCode.png" mode="widthFix"/></view>
-        <view class="content" bindtap="shop"><image src="../../icon/Shop.png" mode="widthFix"/></view>
-        <view class="content" bindtap="location"><image src="../../icon/location.png" mode="widthFix"/></view>
-        <view class="content" bindtap="contact"><image src="../../icon/contact.png" mode="widthFix"/></view>
+      <view class="content" bindtap="wifi">
+        <image src="../../icon/WIFI.png" mode="widthFix" /><text>wifi</text></view>
+      <view class="content" bindtap="health">
+        <image src="../../icon/HealthCode.png" mode="widthFix" /><text>健康码</text></view>
+      <view class="content" bindtap="shop">
+        <image src="../../icon/Shop.png" mode="widthFix" /><text>网上购物</text></view>
+      <view class="content" bindtap="location">
+        <image src="../../icon/location.png" mode="widthFix" /><text>当前位置</text></view>
+        <view class="content" bindtap="contact"><image src="../../icon/contact.png" mode="widthFix"/><text>通讯录</text></view>
     </view>
   </view>
 </view>
