@@ -12,41 +12,37 @@ Page({
   
   //WIFI
   wifi(){
-    wx.redirectTo({
+    wx.navigateTo({
       url: '/pages/wifi/wifi'
     })
   },
   // 健康码
   health(){
-    wx.redirectTo({
+    wx.navigateTo({
       url: '/pages/health/health'
     })
   },
   //网上购物
   shoping(){
-    wx.redirectTo({
+    wx.navigateTo({
       url: '/pages/shoping/shoping'
     })
   },
   //我在哪儿
   location(){
-    wx.redirectTo({
+    wx.navigateTo({
       url: '/pages/location/location'
     })
   },
   //通讯录
   contact(){
-    wx.redirectTo({
+    wx.navigateTo({
       url: '/pages/contact/contact'
     })
-    // 打开手机通讯录
-    // wx.makePhoneCall({
-    //   phoneNumber: '15819494176',
-    // })
   },
   //紧急联系人
   important(){
-    wx.redirectTo({
+    wx.navigateTo({
       url: '/pages/important/important'
     })
   },

@@ -1,3 +1,17 @@
 <view class="l_container">
-  <view>11</view>
+  <view class="item">
+    <view class="tel">
+      <view><text>xx</text></view><text>xx</text>
+    </view>
+  </view>
+  <view class="item">
+    <view class="tel">
+      <view><text>xx</text></view><text>xx</text>
+    </view>
+  </view>
+  <view class="item">
+    <view class="tel">
+      <view><text>xx</text></view><text>xx</text>
+    </view>
+  </view>
 </view>

@@ -9,9 +9,17 @@ page{
   height: 100%;
 }
 .nav_btn{
-  margin: 90rpx 0;
+  position: fixed; /*相对定位*/
+  top: 1000rpx;
+  right: 40rpx;
+  width: 106rpx !important;
+  height: 106rpx !important;
+  border-radius: 50%;
+}
+.nav_btn>text{
+  line-height: 106rpx;
 }
 #map{
-	height: 80vh; 
+	height: 100%; 
 	width: 100%;
 }

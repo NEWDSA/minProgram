@@ -1,4 +1,5 @@
 {
   "usingComponents": {},
-  "navigationBarTitleText": "通讯录"
+  "navigationBarTitleText": "通讯录",
+  "navigationBarBackgroundColor": "#D2B48C"
 }
